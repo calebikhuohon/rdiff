@@ -114,6 +114,6 @@ func TestSeekMatchBlock(t *testing.T) {
 	require.NoError(t, err)
 
 	if index != 2 {
-		t.Errorf("Expected index 1 for weakSum=231277338")
+		t.Errorf("Expected index 1 for weakSum=174195318")
 	}
 }
