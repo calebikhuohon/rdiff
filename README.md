@@ -4,6 +4,8 @@
 
 _Spec v5 (2022-04-04)_
 
+(Patch API not implemented)
+
 Make a rolling hash based file diffing algorithm. When comparing original and an updated version of an input, it should return a description ("delta") which can be used to upgrade an original version of the file into the new file. The description provides information of the chunks which:
 
 - Can be reused from the original file
