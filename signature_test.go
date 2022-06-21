@@ -55,10 +55,10 @@ type errorI interface {
 	Error(args ...interface{})
 }
 
-func signature(t errorI, src io.Reader) *SignatureType {
+func signature(t errorI, src io.Reader, blockSize int) *SignatureType {
 	var (
 		magic            = Blake2SigMagic
-		blockLen  uint32 = 512
+		blockLen         = uint32(blockSize)
 		strongLen uint32 = 32
 		bufSize          = 65536
 	)
