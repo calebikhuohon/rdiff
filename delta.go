@@ -1,6 +1,7 @@
 //implementation based on the rsync algorithm (https://rsync.samba.org/tech_report/node2.html)
 // Circular buffer interface based on https://github.com/balena-os/circbuf
 // code implementation based on https://github.com/balena-os/librsync-go
+//and https://github.com/geolffreym/rolling-sync
 
 package rollingHash
 
